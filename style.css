@@ -1,0 +1,143 @@
+h1, label{
+    text-align: center;
+    letter-spacing: 1vw;
+    background: linear-gradient(white, orange, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+input{
+    font-size: 1.2rem;
+}
+div h1{
+    display: block;
+    text-align: center;
+}
+body {
+	background-color: #242948;
+	color: #fff;
+}
+.addToDo{
+    display: flex;
+    
+    justify-content: center;
+    align-content: center;
+}
+.todo{
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+.todo input, button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+form{
+    display: flex;
+    gap: 1vw;
+    align-content: center;
+    justify-content: center;
+}
+.inputStyle{
+    background-color: beige;
+    text-align: center;
+    height: 5vh;
+    width: 40vw;
+    border: 1px solid black;
+}
+.newtasks, .ToDoDetails{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 15px;
+}
+
+
+.domInputStyle{
+    margin: auto;
+    background-color: beige;
+    text-align: center;
+    height: 10vh;
+    width: 30vw;
+    border-radius: 20%;
+    border: 1px solid black;
+}
+.toDoStyle{
+    color: white;
+    font-size: 1.5rem;
+    height: 20vh;
+    width: 40vw;    
+}
+.toDoStyle div{
+    background-color: aquamarine;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* .toDoStyle label{
+    font-size: 1.5rem;
+    background: linear-gradient(white, orange, brown);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+button{
+    font-size: 1rem;
+    text-align: center;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 2vw;
+    background: linear-gradient(blue,purple, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: beige;
+}
+button:hover{
+    background-color: rgb(110, 102, 228);
+    opacity: 0.5;
+    transform: 1ms;
+    cursor: pointer;
+}
+h1{
+    display: block;
+}
+.delete{
+    height: 3vh;
+    width: 4vw;    
+}
+.stored{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 768px) {
+    button{
+      font-size: 12px;
+      /* padding: auto; */
+      height: 6vh;
+      width: 7vw;
+    }
+    .todo, .ToDoDetails{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-content: center;
+        padding: 20px;
+    }
+    .newtasks{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    button{
+      font-size: 10px;
+      /* padding: auto; */
+      height: 7vh;
+      width: 8vw;
+    }  
+}
